@@ -1,9 +1,9 @@
 ---
 include:
   - board: crosses_v2_left
-    artifact-name: crosses_36_left
+    artifact-name: crosses_v2_36_left
   - board: crosses_v2_right
-    artifact-name: crosses_36_right
+    artifact-name: crosses_v2_36_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: crosses_v2_right
