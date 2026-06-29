@@ -76,24 +76,19 @@ parse_config:
       tap: $$mdi:minus-circle-outline$$
       type: none
     "&bt BT_SEL 0":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
       hold: 1
     "&bt BT_SEL 1":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
       hold: 2
     "&bt BT_SEL 2":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
       hold: 3
     "&bt BT_SEL 3":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
       hold: 4
     "&bt BT_SEL 4":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
+      tap: $$mdi:bluetooth-connect$$
       hold: 5
     "&mkp LCLK":
       tap: $$mdi:mouse-left-click$$
@@ -104,6 +99,18 @@ parse_config:
     "&mkp RCLK":
       tap: $$mdi:mouse-right-click$$
       hold: "right"
+    "&studio_unlock":
+      tap: $$mdi:lock-open$$
+      hold: "unlock"
+    "&pipe_switch":
+      tap: $$mdi:toggle-switch$$
+      hold: "toggle"
+    "&dpi_cycle_left 1":
+      tap: $$mdi:plus-minus-variant$$
+      hold: "DPI Cycle"
+    "&dpi_cycle_right 1":
+      tap: $$mdi:plus-minus-variant$$
+      hold: "DPI Cycle"
   sticky_label: $$mdi:gesture-tap-hold$$
   toggle_label: toggle
   tap_toggle_label: tap-toggle
