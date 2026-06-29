@@ -1,0 +1,12 @@
+manifest:
+  defaults:
+    revision: main
+  remotes:
+    - name: Good-Great-Grand-Wonderful
+      url-base: https://github.com/Good-Great-Grand-Wonderful
+  projects:
+    - name: crosses-v2-zmk-firmware
+      remote: Good-Great-Grand-Wonderful
+      import: config/west.yml
+  self:
+    path: config
