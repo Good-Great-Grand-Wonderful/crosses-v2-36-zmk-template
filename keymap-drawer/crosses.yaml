@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: crosses, layout_name: gggw_crosses_36_layout}
+layout: {zmk_keyboard: crosses_v2, layout_name: gggw_crosses_36_layout}
 layers:
   Base:
   - {t: '$$mdi:apple-keyboard-shift$$+Q', h: Q}
